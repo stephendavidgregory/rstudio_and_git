@@ -9,11 +9,10 @@
 #' @param project Optionally give a project.
 #' @param milestone Optionally give a milestone.
 #'
-#' @return
-#' @export
+#' @return The URL of the issue created and an indication of any problem (0 if no problem).
 #'
 #' @examples
-#'
+#' ghi(title = 'test', body = '# This is a test with `markdown` code.')
 ghi <- function(title, body, assignee = "@me",
                 label = NULL, project = NULL, milestone = NULL) {
 
