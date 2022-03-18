@@ -6,23 +6,16 @@
 
 # Connect [`git`](http://git-scm.com/) to your [`R`](https://www.r-project.org/) project via [`RStudio`](https://www.rstudio.com/)
 
-## [`R`](https://www.r-project.org/) project with "New Directory"
+## [`R`](https://www.r-project.org/) project with "Version Control"
 
-  1. Open [`RStudio`](https://www.rstudio.com/)
-  2. `File > New Project... > New Directory > New Project` - fill out details and check box next to `Create a git repository` and then click `Create project`
-  3. Open [https://www.github.com](https://www.github.com) and sign in
-  4. Create a new repository with the same name given to the "New Project"
-  5. Write code, commit and push, etc.
+  1. Open [https://www.github.com](https://www.github.com) and sign in
+  2. Create a new repository: the name of this repository is likely to be the [`R`](https://www.r-project.org/) project name - _choose carefully_
+  3. Open [`RStudio`](https://www.rstudio.com/)
+  4. `File > New Project... > Version Control > Git`: fill out details, pasting the URL of the [`git`](http://git-scm.com/) repo you just created into the `Respository URL` field, and I recommend using the repo name for the [`R`](https://www.r-project.org/) `Project directory name`
+  5. Click `Create project`
+  6. Write code, commit and push, etc.
 
-## [`R`](https://www.r-project.org/) project with "Existing Directory"
-
-  1. Open [`RStudio`](https://www.rstudio.com/)
-  2. `File > New Project... > Existing Directory` - fill out details and then click `Create project`
-  3. Open [https://www.github.com](https://www.github.com) and sign in
-  4. Create a new repository with the same name given to the "Existing Project"
-  5. Write code, commit and push, etc.
-
-See also the tutorial here: [https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit).
+For alternative options, e.g., adding [`git`](http://git-scm.com/) to an existing project, you'll have to fiddle in [`git`](http://git-scm.com/) cli. This is easy, but not covered here. Instead, see tutorial like this: [https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit).
 
 # Issues
 
