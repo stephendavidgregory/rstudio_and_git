@@ -141,7 +141,7 @@ Note the location where `git` is installed, e.g.
 `C:\Users\{...}\AppData\Local\Programs\`
 :::
 
-* At "Choose the default behaviour of `git pull`": select `Rebase`
+<!-- * At "Choose the default behaviour of `git pull`": select `Rebase` -->
 * Set `git` configurations, e.g., `user.name`, `user.email`, etc. 
 :::
 
