@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+$code-color: #cc0000;
+$code-block-bg: #ded9ca;
+$code-block-border-color: #000000;
+$code-block-font-size: 0.75em;
+
+// fonts
+$presentation-heading-color: #00AAB4 !default;
+$presentation-title-slide-text-align: left;
+$presentation-font-size-root: 32px;
+$body-color: #000000 !default;
+
+/*-- scss:rules --*/
+
+.quote-cite {
+  text-align: right;
+}
+
+.small-text {
+  font-size: 0.75em;
+}

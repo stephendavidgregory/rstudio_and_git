@@ -1,0 +1,165 @@
+---
+email: "[stephen.gregory@cefas.gov.uk](mailto:stephen.gregory@cefas.gov.uk)"
+format: 
+  revealjs:
+    theme: custom.scss
+    incremental: false # true
+from: markdown+emoji
+execute: 
+  eval: true
+  echo: false
+  message: false
+  warning: false
+  code-fold: true
+  code-summary: "expand for full code"
+  fig-align: "center"
+embed-resources: true
+---
+
+##  {background-image="background-title.png" background-size="100%"}
+
+::: {.absolute top="0%" left="0%" width="1100" style="font-size: 1.75em; color: #1C2442; font-weight: bold;"}
+Using [`git`](http://git-scm.com/) in [`RStudio`](https://www.rstudio.com/)
+:::
+
+::: {.absolute top="15%" left="0%" width="1100" style="font-size: 1.25em; color: #00AAB4;"}
+Stephen, Jennifer, Tiago & David
+:::
+
+```{r setup}
+#| include: false
+
+# libraries
+library(here)
+
+# do a sum
+a <- 1 + 1
+print(a)
+
+```
+
+
+## Setup {background-image="background-body.png" background-size="100%"}
+
+:::: {.columns}
+::: {.column width="75%"}
+* Assume `R`, `RStudio` & `git` installed & working together
+  - [If not, see Appendix]{.small-text}
+* Create a [`GitHub`](http://github.com/) account
+* Create a repository ("repo") on `GitHub`
+* `clone` the repo as an `RStudio` project
+* Write a `README.md` using markdown
+:::
+
+::: {.column width="25%"}
+![](rstudio-git-project.png)
+:::
+::::
+
+
+## Regular use {background-image="background-body.png" background-size="100%"}
+
+
+:::: {.columns}
+::: {.column}
+
+::: {.small-text}
+**Step 1** Click "Pull" on "Git" panel
+:::
+
+* Create, edit, modify, e.g., R scripts, then:
+
+::: {.small-text}
+**Step 2** Click "Commit" on "Git" panel
+
+**Step 3** Check boxes to "Stage" changes to commit
+
+**Step 4** Write "Commit message" & click "Commit"
+
+**Step 5** Once committed, don't forget to "Push"
+:::
+
+* Changes visible on `GitHub` :sweat_smile:
+
+:::
+
+::: {.column}
+![](regular-use.png)
+:::
+::::
+
+
+<!-- ## Advanced `GitHub` {background-image="background-body.png" background-size="100%"} -->
+
+<!-- * Try using `mermaid` in the `README.md` -->
+<!-- *  -->
+
+
+## Appendix {background-image="background-body.png" background-size="100%"}
+
+
+## Install [`R`](https://www.r-project.org/) on Windows
+
+:::: {.columns}
+::: {.column}
+* Visit the [`R`](https://www.r-project.org/) website
+* Follow the links to `download R`, incl. select mirror and OS
+* Double click installer and follow instructions
+* Install required packages with `install.packages()`
+:::
+
+::: {.column}
+![`R` website](r-website.png)
+:::
+::::
+
+
+## Install [`RStudio`](https://posit.co/products/open-source/rstudio/) on Windows
+
+:::: {.columns}
+::: {.column}
+* Download [`RStudio`](https://posit.co/download/rstudio-desktop/) installer
+* Double click installer and follow instructions
+:::
+
+::: {.column}
+![`RStudio Desktop` download page](rstudio-download.png)
+:::
+::::
+
+
+## Install [`git`](http://git-scm.com/) on Windows
+
+:::: {.columns}
+::: {.column}
+* Download [`git`](http://git-scm.com/), currently v 2.45.2
+* Double click installer and follow instructions
+
+::: {.callout-important title="Installation location"}
+Note the location where `git` is installed, e.g.
+
+`C:\Users\{...}\AppData\Local\Programs\`
+:::
+
+* At "Choose the default behaviour of `git pull`": select `Rebase`
+* Set `git` configurations, e.g., `user.name`, `user.email`, etc. 
+:::
+
+::: {.column}
+![Initial `git` installer screen](git-setup1.png)
+:::
+::::
+
+
+## Getting them to work together
+
+:::: {.columns}
+::: {.column}
+* [`git`](http://git-scm.com/) authentication is OS-specific - see David's slides
+* Connect `RStudio` and `git`: Tools > Global Options... > Git/SVN 
+:::
+
+::: {.column}
+![Connect `RStudio` and `git`](rstudio-git.png)
+:::
+::::
