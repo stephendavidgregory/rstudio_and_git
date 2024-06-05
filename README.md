@@ -17,7 +17,7 @@
 
 For alternative options, e.g., adding [`git`](http://git-scm.com/) to an existing project, you'll have to fiddle in [`git`](http://git-scm.com/) cli. This is easy, but not covered here. Instead, see tutorial like this: [https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html#learngit).
 
-# Issues
+# [`GitHub`](https://www.github.com) issues
 
 ## Setup
 
@@ -53,4 +53,8 @@ See [https://cran.r-project.org/web/packages/gh/gh.pdf](https://cran.r-project.o
 
 [https://www.garrickadenbuie.com/blog/shrtcts-reprex-to-issue/](https://www.garrickadenbuie.com/blog/shrtcts-reprex-to-issue/)
 
+
+# Presentation: "Using [`git`](http://git-scm.com/) in [`RStudio`](https://www.rstudio.com/)"
+
+See the Quarto slides [here](git-rstudio-practical/git-rstudio-practical.qmd)
 
