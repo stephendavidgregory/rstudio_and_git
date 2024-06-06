@@ -64,19 +64,19 @@ print(a)
 ::: {.column}
 
 ::: {.small-text}
-**Step 1** Click "Pull" on "Git" panel
+**Step 1** Click *Pull* on *Git panel*
 :::
 
 * Create, edit, modify, e.g., R scripts, then:
 
 ::: {.small-text}
-**Step 2** Click "Commit" on "Git" panel
+**Step 2** Click *Commit* on *Git panel*
 
-**Step 3** Check boxes to "Stage" changes to commit
+**Step 3** Check boxes to *Stage* changes to commit
 
-**Step 4** Write "Commit message" & click "Commit"
+**Step 4** Write *Commit message* & click *Commit*
 
-**Step 5** Once committed, don't forget to "Push"
+**Step 5** Once committed, don't forget to *Push*
 :::
 
 * Changes visible on `GitHub` :sweat_smile:
@@ -85,6 +85,34 @@ print(a)
 
 ::: {.column}
 ![](regular-use.png)
+:::
+::::
+
+
+## Other options in [`RStudio`](https://www.rstudio.com/)
+
+:::: {.columns}
+::: {.column width="40%"}
+![Other `git` options in the *Git panel*](rstudio-options.png)
+
+![`RStudio` *Git window*](git-window.png)
+:::
+
+::: {.column width="60%"}
+::: {.small-text}
+* **Diff** opens *Git window* with output of `git diff <file>` of choosen file
+* **Commit** opens *Git window* is where we stage and commit changes to files
+* **Pull** does a `git pull` (also accessible from *Git window*)
+* **Push** does a `git push` (also accessible from *Git window*)
+* **History** opens a window with output of `git log`
+
+::: {.callout-important title="Go directly to `bash` and don't pass go"}
+By now, you've exhausted `git` options in `RStudio`: use `bash`!
+:::
+
+* **More** menu allows access to `git revert` & add files to `.gitignore`
+* Create and checkout a *Branch* using buttons on the RHS
+:::
 :::
 ::::
 
