@@ -1,0 +1,5 @@
+##  {background-image="close_bg.png" background-size="100%"}
+
+::: {.absolute top="44%" left="53%" width="150"}
+{{< meta email >}}
+:::
