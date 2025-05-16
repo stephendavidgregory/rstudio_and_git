@@ -14,6 +14,7 @@ execute:
   code-summary: "expand for full code"
   fig-align: "center"
 embed-resources: true
+lightbox: true
 ---
 
 ##  {background-image="background-title.png" background-size="100%"}
