@@ -55,4 +55,4 @@ See <https://cran.r-project.org/web/packages/gh/gh.pdf>
 
 # Presentation: "Using [`git`](http://git-scm.com/) in [`RStudio`](https://www.rstudio.com/)"
 
-See the Quarto slides [here](git-rstudio-practical/git-rstudio-practical.qmd)
+See the Quarto slides [here](git-rstudio-practical/git-rstudio-practical.qmd) and a pdf [here](git-rstudio-practical/git-rstudio-practical.pdf).
