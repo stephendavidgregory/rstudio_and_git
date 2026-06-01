@@ -24,7 +24,7 @@ Using [`git`](http://git-scm.com/) in [`RStudio`](https://www.rstudio.com/)
 :::
 
 ::: {.absolute top="15%" left="0%" width="1100" style="font-size: 1.25em; color: #00AAB4;"}
-Stephen, Jennifer, Tiago & David
+Stephen, Tiago, David, & Joe
 :::
 
 ```{r setup}
@@ -106,14 +106,14 @@ print(a)
 * **Pull** does a `git pull` (also accessible from *Git window*)
 * **Push** does a `git push` (also accessible from *Git window*)
 * **History** opens a window with output of `git log`
-
-::: {.callout-important title="Go directly to `bash` and don't pass go"}
-By now, you've exhausted `git` options in `RStudio`: use `bash`!
-:::
-
 * **More** menu allows access to `git revert` & add files to `.gitignore`
 * Create and checkout a *Branch* using buttons on the RHS
 :::
+
+::: {.callout-important}
+For anything beyond these simple `git` tasks, you'll need to use `git` at the command line.
+:::
+
 :::
 ::::
 
